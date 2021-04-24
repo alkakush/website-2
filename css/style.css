@@ -1,0 +1,124 @@
+/* body color  */
+
+body{
+    background:#deb887;  
+}
+
+.header{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.title{
+    color: red !important;
+    text-align: center;
+    text-shadow: 4px 2px black;
+    font-weight: bold;
+    font-size: 40px;
+    background:green;
+    padding:10px 0;
+    margin-top: 0;
+   
+}
+#showcase {
+    background: silver;
+    width:100%;
+    margin-top: 70px;
+}
+.container{
+	margin:auto;
+	overflow: hidden;
+}
+
+#showcase p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding:10px 0;
+    word-spacing: .8em;
+}
+
+.about{
+    background :cornsilk;
+    margin-bottom: 10px;
+
+}
+
+.subtitle{
+    color:blue;
+    padding:10px 0;
+}
+h2:hover{       
+    color: greenyellow;
+}
+
+.about img{
+    width:1320px;
+}
+
+.about p{
+    margin:0 10px;
+    text-align: justify;
+}
+
+
+.service{
+    color:black;
+}
+
+.service img{
+    height:300px;
+    width:400px;
+    opacity: 0.5;
+}
+
+/* ===================================graphics effects ============================================= */
+.graphics{
+    border:2px solid blue;
+    height: 300pt;
+    width:400px;
+    background:#4682b4;
+ /*   background:linear-gradient(to top right, blue, pink, red); */
+ /*   background:linear-gradient(160deg, blue, pink, red);  */  /*color position in degree*/
+     background:radial-gradient( circle, red 20%, blue 40%,green 55%);  /*circular color position */ 
+}
+
+
+li:first-child{
+    color:steelblue;
+}
+li:nth-child(2){
+    color: violet;
+}
+
+/* ============================ pseudo selectors  ============================================ */
+/*
+#google-link:link{
+  color: blue; 
+}
+
+#google-link:visited{
+   color: red;
+}
+
+*/
+
+/* ============================ sibling selectors  ============================================ */
+h2 + a{
+    color: slateblue;
+}
+
+textarea ~ button {
+    color:purple;
+}
+
+/* ============================ attributes selectors  ============================================ */
+
+img[src^="images"]{
+    border:5px solid black;
+}
+
+h2[class~=article-subtitle]{
+    font-weight: bold;
+}
