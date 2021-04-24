@@ -62,17 +62,50 @@ h2:hover{
     text-align: justify;
 }
 
-
-.service{
-    color:black;
+#service{
+    background: #faebd7;
+    margin-top: 0;
+    font-size: 20px;
 }
 
-.service img{
+.service-tbl a:hover{
+   color:green;
+}
+.table{
+    border-collapse: collapse;
+    width:400px;
+    height:100px;
+    text-align: left;
+    margin-bottom: 10px;
+    border:3px solid black;
+}
+.table thead{
+    font-weight: bold;
+    color:red;
+    border:3px solid black;
+}
+
+.table th, td{
+    padding:10px;
+}
+.table tr:hover{
+   background-color:gray;
+}
+.service-tbl img{
     height:300px;
     width:400px;
     opacity: 0.5;
 }
+.service-tbl img:hover{
+    opacity: 1.0;
+}
 
+#service p{
+    color:#dc143c;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}
 /* ===================================graphics effects ============================================= */
 .graphics{
     border:2px solid blue;
