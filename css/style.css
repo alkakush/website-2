@@ -157,3 +157,17 @@ h2[class~=article-subtitle]{
     font-weight: bold;
 }
 
+#form input, #form textarea{
+    display:block;
+    margin:10px;
+    width:50%;
+    padding: 5px;
+}
+#form button{
+    cursor: pointer;
+    background: rgb(53, 53, 212);
+    color:white;
+    padding:5px;
+    margin-left: 10px;
+    
+}
