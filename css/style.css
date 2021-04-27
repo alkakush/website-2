@@ -169,5 +169,46 @@ h2[class~=article-subtitle]{
     color:white;
     padding:5px;
     margin-left: 10px;
+    transition:all 1s ease ;
     
+}
+
+#form button:hover{
+    color:#000;
+    background:#0f0;
+    padding:10px 20px;
+}
+
+/* ================================================== transition  property ====================================== */
+
+#form-2 input, #form-2 textarea{
+    display:block;
+    margin:10px;
+    width:50%;
+    padding: 5px;
+}
+.submit-btn{
+    cursor: pointer;
+    background: rgb(53, 53, 212);
+    color:white;
+    padding:10px;
+    margin: 20px 10px;
+    border:none;
+
+  /*   transform: rotate(60deg);
+   transform:scale(2.5); 
+    transform: skewX(45deg);   
+    transform: matrix(1, 0.45, 0.45, 1, 70, 40); */
+
+    /* ===== ignore below====== */
+   /* transition:background 1s ease-in-out ; */
+    
+}
+
+.submit-btn:hover{
+    color:#000;
+    background:#0f0;
+    padding:10px 20px;
+
+    transform: translate(50px,30px); 
 }
